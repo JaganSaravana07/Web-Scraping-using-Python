@@ -25,9 +25,9 @@ This project is a web scraping application that extracts hotel details from [Boo
 3. The extracted data is stored as a CSV file in the local directory.
 4. To simulate human behavior and prevent blocking, the program incorporates random sleep
 ## Example Output (CSV Format)
-`Hotel_Name,Location,Price,Rating,Score,Review,Link
-DownTown Arambol - The River Side Hostel,Arambol,"2,878",Superb,9.4,45 reviews,https://www.booking.com/hotel/in/downtown-arambol-the-river-side-hostel.en-gb.html?label=en-in-booking-desktop-SoQWfYhAMBURf0HSQntj1AS652796016141%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-334108349%3Alp9302084%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&arphpl=1&checkin=2025-02-27&checkout=2025-02-28&dest_id=4127&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=f0816bafc3240608&srepoch=1740323936&all_sr_blocks=1287241603_401681623_2_42_0_790191&highlighted_blocks=1287241603_401681623_2_42_0_790191&matching_block_id=1287241603_401681623_2_42_0_790191&sr_pri_blocks=1287241603_401681623_2_42_0_790191_287760&from=searchresults`
-
-
+```python
+Hotel_Name,Location,Price,Rating,Score,Review,Link
+DownTown Arambol - The River Side Hostel,Arambol,"2,878",Superb,9.4,45 reviews,https://www.booking.com/hotel/in/downtown-arambol-the-river-side-hostel.en-gb.html?label=en-in-booking-desktop-SoQWfYhAMBURf0HSQntj1AS652796016141%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-334108349%3Alp9302084%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&arphpl=1&checkin=2025-02-27&checkout=2025-02-28&dest_id=4127&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=f0816bafc3240608&srepoch=1740323936&all_sr_blocks=1287241603_401681623_2_42_0_790191&highlighted_blocks=1287241603_401681623_2_42_0_790191&matching_block_id=1287241603_401681623_2_42_0_790191&sr_pri_blocks=1287241603_401681623_2_42_0_790191_287760&from=searchresults
+```
 ## Disclaimer
 This project is intended for educational purposes only. Scraping websites without permission may violate the terms of service. You can use responsibly and check Booking.com's scraping policies before deploying.
